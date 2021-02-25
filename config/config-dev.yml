@@ -1,0 +1,12 @@
+server:
+  AppVersion: 0.0.1
+  Port: :3000
+  Mode: Development
+
+postgres:
+  Hostname: postgesql
+  Port: 5432
+  Username: postgres
+  Password: password123
+  DBName: godb
+  DriverName: pgx
